@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us-Agroya Exports</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="khsh.css">
+</head>
+<body>
+    <header>
+
+        <!-- <h1 class="heading">contact us</h1> -->
+    
+        <div id="menu" class="fas fa-bars"></div>
+    
+        <nav class="navbar">
+            <div class="logo"><img src="https://secureservercdn.net/50.62.89.58/ok9.f2e.myftpupload.com/wp-content/uploads/2022/05/cropped-logo-png-final-127x127.png" alt="LOGO" height="80px" width="80px"></div>
+            <ul>
+                <li><a href="home.html">home</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="contactback.html">contact Us</a></li>
+            </ul>
+        </nav>
+    
+    </header>
+    
+    <!-- header section ends -->
+    
+    <!-- contact section starts  -->
+    
+    <section class="contact">
+    
+        <form action="contact.html">
+    
+            <input type="text" placeholder="name" id="name" autocomplete="off" style="border: 2px solid black; border-radius:16px; width: 300px; height: 40px; text-align: center;">
+            <input type="number" class="box" placeholder="" id="number" style="border: 2px solid black; border-radius:16px; width: 300px; height: 40px; text-align: center;">
+            <div class="opt">
+                <select name="value" id="value" style="margin-left: 0px; border: 2px solid black; border-radius: 8px; width: 300px; height: 40px; text-align: center;">
+                    <option value="1">5000-10000 Square Meter</option>
+                    <option value="2">10000-20000 Square Meter</option>
+                    <option value="3">Above</option>
+                </select>
+            </div>
+            <br>
+            <input type="email" placeholder="Email" id="email" autocomplete="off" style="border: 2px solid black; border-radius:16px; width: 300px; height: 40px; text-align: center;">
+            <br>
+            <br>
+            <textarea id = "Product" placeholder="Product" cols="40" rows="5" style="border-radius: 16px; text-align: center;"></textarea>
+            <br>
+            <button id="bts" class="btn">Submit</button>
+        
+        </form>
+        
+        <div class="content">
+        
+            <h3>contact info</h3>
+            <div class="icons">
+                <i class="fas fa-map-marker-alt"></i> Riico industrial area, Kishangarh ,323001, Rajasthan, India.
+            </div>
+            <div class="icons">
+                <i class="fa fa-envelope"></i> support@agroyaexports.com
+            </div>
+            <div class="icons">
+                <i class="fas fa-phone"></i> +91-9928041015
+            </div>
+            <div class="icons">
+                <i class="fas fa-globe"></i> www.agroyaexports.com
+            </div>
+        
+        </div>
+    
+    </section>
+    
+    <p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3567.303667416241!2d74.84958951537881!3d26.60671148326032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396bf13e0c1fec1f%3A0x7568180d75cac074!2sRK%20Marble%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1654947073189!5m2!1sen!2sin" width="800" height="300" style="border:0; margin-left: 300px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </p>
+        
+    <!-- contact section ends -->
+    
+    <div class="footer">
+
+        <div class="box-container">
+    
+            <div class="box">
+                <h3>why choose us?</h3>
+                <p>We, at Quality Marble Exports (India), offer products that promise quality, purity, and beauty. As a 100% export unit, we offer an extensive range of marble, granite ,sandstone. We own fully mechanized quarries that manufacture premium quality products and exports them to Saudi Arabia, USA, UK, Egypt, Vietnam, Qatar, Russia, Turkey, and many other countries.</p>
+            </div>
+    
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#">about</a>
+                <a href="#">service</a>
+                <a href="#">plan</a>
+                <a href="#">contact</a>
+            </div>
+    
+            <div class="box">
+                <h3>Connect With Us</h3>
+                <a href="https://instagram.com/khushal3344" target="_blank"><img src="instagram-1675670_1280.png"
+                        alt="" height="40px" width="40px"></a>
+                <a href="https://facebook.com/" target="_blank"><img src="facebook-1924510_1280.png" alt="" height="40px"
+                        width="40px"></a>
+                <a href="https://twitter.com/" target="_blank"><img src="twitter-312464_1280-removebg-preview.png" alt=""
+                        height="40px" width="40px"></a>
+            </div>
+    
+        </div>
+    
+        <h1 class="credit"> Copyright &copy; | all rights reserved. | Created by <a
+            href="https://instagram.com/khushal3344" target="_blank">Mr. Web Designer</a> </h1>
+    
+    </div>
+    
+    </div>
+</body>
+<script src="https://smtpjs.com/v3/smtp.js">
+</script>
+<script>
+    var bts = document.getElementById('bts');
+    bts.addEventListener('click',function(e){
+        e.preventDefault()
+        var name = document.getElementById('name').value;
+        var number = document.getElementById('number').value;
+        var value = document.getElementById('value').value;
+        var email = document.getElementById('email').value;
+        var Product = document.getElementById('Product').value;
+        var body = 'name' +name + '<br/> number ' + number + '<br/> value' + 
+        value + '<br/> email' + email + '<br/> Product' + Product; 
+        Email.send({
+            Host : "smtp.elasticemail.com",
+            Username : "akshun2017verma@gmail.com",
+            Password : "2B2C6BF8E3EACED8A705DD203610D461017C",
+            To : 'akshun2017verma@gmail.com',
+            From : email,
+            Subject : Product,
+            Body : body
+}).then(
+  message => alert(message)
+);
+    })
+</script>
+</html>
